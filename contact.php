@@ -62,38 +62,37 @@ include('includes/header.php');
 
         // Send the email
         mail($to, $subject, $message, $headers);
-    
 
-    ?> 
-    
-    <h5>Thanks for contacting Linus & Pepper's!</h5>
-		<p>Please allow some time for a response.</p>
-		<p><a href="/" class="button block">&laquo; Go Home</a></p>
+
+    ?>
+
+        <h5>Thanks for contacting Linus & Pepper's!</h5>
+        <p>Please allow some time for a response.</p>
+        <p><a href="/" class="button block">&laquo; Go Home</a></p>
 
     <?php } else { ?>
 
-    <form method="post" action="" id="contact-form">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name">
+        <form method="post" action="" id="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
 
-        <label for="email">Your email</label>
-        <input type="email" id="email" name="email">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email">
 
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message"></textarea>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message"></textarea>
 
-        <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-        <label for="subscribe">Subscribe to our newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+            <label for="subscribe">Subscribe to our newsletter</label>
 
-        <input type="submit" class="button next" name="contact_submit" value="Send Message">
+            <input type="submit" class="button next" name="contact_submit" value="Send Message">
 
-    </form>
+        </form>
 
     <?php } ?>
 
+    <hr>
 </div>
-
-<hr>
 
 <?php include('includes/footer.php');
 ?>
