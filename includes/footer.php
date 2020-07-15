@@ -16,11 +16,15 @@
 
         <em>Sunday</em><br>
         Closed<br><br>
+
+        <?php include('includes/store-hours.php');
+        ?>
+
     </div>
 
 </div>
 
-<small>&copy;2020 @drewwmercer</small>
+<small>&copy;<?php echo date('Y'); ?> <?php echo $developerName; ?></small>
 
 </div>
 

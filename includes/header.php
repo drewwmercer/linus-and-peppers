@@ -1,4 +1,6 @@
-<?php include('includes/arrays.php');
+<?php 
+    $developerName  = '@drewwmercer';
+    include('includes/arrays.php');
 ?>
 
 <!DOCTYPE html>
