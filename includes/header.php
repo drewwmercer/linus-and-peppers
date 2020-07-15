@@ -1,6 +1,6 @@
-<?php 
-    $developerName  = '@drewwmercer';
-    include('includes/arrays.php');
+<?php
+$developerName  = '@drewwmercer';
+include('includes/arrays.php');
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linus & Pepper's</title>
+    <title><?php echo TITLE ?></title>
     <link href='/assets/styles.css' rel='stylesheet'>
 </head>
 

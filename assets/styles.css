@@ -367,6 +367,7 @@ input.button.next {
 
 #final-body .member img {
 	max-width: 100%;
+	border-radius: 5%;
 }
 
 #final-body .closed {
