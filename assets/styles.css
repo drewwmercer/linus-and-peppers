@@ -242,13 +242,13 @@ input.button.next {
 	display: block;
 }
 
-.cf:before,
-.cf:after {
+.clearfix:before,
+.clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.cf:after {
+.clearfix:after {
     clear: both;
 }
 
@@ -256,7 +256,7 @@ input.button.next {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.cf {
+.clearfix {
     *zoom: 1;
 }
 
