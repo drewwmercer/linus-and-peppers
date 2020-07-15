@@ -1,4 +1,4 @@
-# Linus & Peppers
+# Linus & Pepper's
 
 ## About this project
 I wanted to practice fundamentals of PHP, and a local restaurant website seemed like a great fit. The pages populate dynamically, and team members and the sandwich shop menu items are managed in an easy-to-read set of arrays. The contact form successfully sends emails, and has validation features. The restaurant's hours also check the current time here in Raleigh, and let you know whether the restaurant is open or closed. 
