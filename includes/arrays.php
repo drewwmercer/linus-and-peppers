@@ -75,7 +75,7 @@ $menuItems = array(
         title => 'Raleigh\'s Best Potato Salad (16oz)',
         price => 7,
         blurb => 'the best potato salad you have ever had',
-        // drink => 'Sweet Tea'
+        drink => 'Lemonade'
     ),
     
 );
