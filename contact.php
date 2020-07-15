@@ -62,9 +62,15 @@ include('includes/header.php');
 
         // Send the email
         mail($to, $subject, $message, $headers);
-    }
+    
 
-    ?>
+    ?> 
+    
+    <h5>Thanks for contacting Linus & Pepper's!</h5>
+		<p>Please allow some time for a response.</p>
+		<p><a href="/" class="button block">&laquo; Go Home</a></p>
+
+    <?php } else { ?>
 
     <form method="post" action="" id="contact-form">
         <label for="name">Your Name</label>
@@ -82,6 +88,8 @@ include('includes/header.php');
         <input type="submit" class="button next" name="contact_submit" value="Send Message">
 
     </form>
+
+    <?php } ?>
 
 </div>
 
