@@ -11,4 +11,4 @@ jobs:
     - uses: php-actions/composer@v1 # or alternative dependency management
     - uses: php-actions/phpunit@v1
       with:
-        config: custom/path/to/phpunit.xml
+        config: phpunit.xml
