@@ -34,6 +34,6 @@ class StackTest extends TestCase
     }
 
     public function testTrueAssertsToTrue() {
-        $this->assertTrue(false);
+        $this->assertTrue(test);
     }
 }
